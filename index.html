@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>FCC survey</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1 id="title">FCC survey</h1>
+        <p id="description" class="lead">Basic unstyled form.</p>
+      </div>
+
+      <form id="survey-form" action="">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" id="email-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+        </div>
+          <div class="form-group">
+            <label for="age" id="number-label">Age</label>
+            <input type="number" class="form-control" id="number" placeholder="Age" min="0" max="99">
+          </div>
+          <div class="form-group">
+            <label>Which label best describes your current role?</label>
+            <select id="dropdown">
+              <option value="Student">Student</option>
+              <option value="Full time student">Full time student</option>
+              <option value="Job">I have a job</option>
+            </select>
+          </div>
+          <div class ="form-group">
+            <label>Would you recommend us?</label>
+            <ul>
+              <li class="radio">
+                <label>Definitely <input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label>
+              </li>
+              <li class="radio">
+                <label>Maybe <input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label>
+              </li>
+              <li class="radio">
+                <label>Not a chance <input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label>
+              </li>
+            </ul>
+          </div>
+          <div class ="form-group">
+            <label>What should we improve?</label>
+            <ul>
+              <li class="checkbox">
+                <label>Lessons <input name="improve" value="1"  type="checkbox" ></label>
+              </li>
+              <li class="checkbox">
+                <label>Challenges <input name="improve" value="1"  type="checkbox" ></label>
+              </li>
+              <li class="checkbox">
+                <label>Nothing <input name="improve" value="1"  type="checkbox" ></label>
+              </li>
+            </ul>
+          </div>
+          <div class="form-group">
+            <label>Anything else?</label><br />
+            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..." cols="50"></textarea>
+          </div>
+
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Link to CDN for FCC testing -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script>
+  </body>
+</html>
